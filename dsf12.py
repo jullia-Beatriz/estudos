@@ -1,0 +1,7 @@
+sal=float(input('qual e o seu salario? '))
+aum=sal+(sal*15/100)
+print('o seu salario R${:.3f} com um aumento de 15%! vai ficar: R${:.3f}.'.format(sal, aum))
+pro=sal+(sal*30/100)
+print('o seu salario R${:.3f} com uma promocao de 30%! vai ficar: R${:.3f}.'.format(sal, pro))
+red=sal-(sal*15/100)
+print('houve uma reducao no seu salario de 15%! ou seja ele altera de: {:.3f} para: {:.3f}.'.format(sal, red))

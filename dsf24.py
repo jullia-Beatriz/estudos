@@ -1,0 +1,5 @@
+print('ola seja bem vindo!')
+city = input('digite o nome da sua cidade: ').strip()
+city = city.capitalize() 
+#city.strip()
+print(f'comeca com Santo?  ', city.startswith(''))

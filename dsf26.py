@@ -1,0 +1,5 @@
+print('ola, seja bem vindo(a)!')
+frase = input(' digite uma frase: ')
+print(f' a letra A se repete: {frase.count("a")} vezes! ')
+print(f' a letra A aparece a primeira vez na posicao: {frase.find("a")}!')
+print(f' a letra A aparece pela ultima vez na posicao: {frase.rfind("a")}!')

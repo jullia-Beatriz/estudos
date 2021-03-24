@@ -1,0 +1,5 @@
+print('ola seja bem vindo(a)! ')
+nome = input('digite seu nome completo: ')
+nome = nome.title()
+print(f'seu primeiro nome: {nome.split()[0]}')
+print(f'seu ultimo nome: {nome.rsplit()[-1]}')

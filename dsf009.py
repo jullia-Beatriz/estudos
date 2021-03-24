@@ -1,0 +1,6 @@
+print('ola!,')
+v=int(input('digite um numero para ver sua tabuada: '))
+print('-'*20)
+print(' {}X1=  {} \n {}X2=  {}\n {}X3=  {}\n {}X4=  {}\n {}X5=  {}'.format(v, (v*1), v, (v*2), v, (v*3), v, (v*4), v, (v*5)))
+print(' {}X6=  {} \n {}X7=  {}\n {}X8=  {}\n {}X9=  {}\n {}X10= {}'.format(v, (v*6), v, (v*7), v, (v*8), v, (v*9), v, (v*10)))
+print('-'*20)
